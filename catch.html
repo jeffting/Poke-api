@@ -1,0 +1,55 @@
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="catch.js"></script>
+  <link rel="stylesheet" type="text/css" href="pokeball.css" media="screen" />
+  <link href='//fonts.googleapis.com/css?family=Atomic Age' rel='stylesheet'>
+  <title>World of Pokemon</title>
+
+  <style>
+    body{
+      background-image: url("http://cdn.quotesgram.com/img/75/3/2089726615-420248.jpg");
+      background-size: cover;
+    }
+    #pokemon{
+       font-family:"Courier New", Courier, monospace;
+       font-size: 30px;
+       color: yellow;
+       background-color: rgba(0, 130, 128, 0.5);
+       width: 500px;
+       margin-left: auto;
+       margin-right: auto;
+       border-radius: 13px;
+    }
+    #home{
+      color: red;
+      text-decoration: none;
+      font-size: 30px;
+      position: relative;
+      float: left;
+      margin-left: 30px;
+      margin-top: 30px;
+      background-color: rgba(16, 100, 241, 0.5);
+      padding: 5px;
+      border-radius: 8px;
+      font-family: 'Atomic Age';
+    }
+    #home:hover{
+      color: green;
+    }
+    #learn
+    {
+      text-decoration: none;
+      color: yellow;
+    }
+    #learn:hover{
+      color: blue;
+    }
+  </style>
+</head>
+  <body>
+    <a id="home" href="/pokeAPI/">Home</a><br>
+      <div class="box"></div>
+      <div id="pokemon"></div>
+  </body>
+</html>

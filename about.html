@@ -1,0 +1,62 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="about.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Atomic Age' rel='stylesheet'>
+    <title>World of Pokemon</title>
+    <style>
+      body{
+        background-size: cover;
+        background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/03/Pokemon-waves-pikachu-surfing-HD-wallpaper.jpg");
+      }
+      #searchLine{
+        text-align: center;
+        color: yellow;
+        margin-top: 8%;
+        font-family:"Comic Sans MS", cursive, sans-serif;
+        font-size: 50px;
+      }
+      #home{
+        color: red;
+        text-decoration: none;
+        font-size: 30px;
+        position: relative;
+        float: left;
+        margin-left: 30px;
+        margin-top: 30px;
+        background-color: rgba(16, 100, 241, 0.5);
+        padding: 5px;
+        border-radius: 8px;
+        font-family: 'Atomic Age';
+      }
+      #home:hover{
+        color: green;
+      }
+      #aboutPokemon{
+        background-color: rgba(0, 130, 128, 0.5);
+        text-align: center;
+        font-size: 40px;
+        color: #de4019;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1px;
+        border-radius: 20px;
+        font-family:"Courier New", Courier, monospace;
+
+      }
+    </style>
+</head>
+
+<body>
+  <a id="home" href="/pokeAPI/">Home</a><br>
+  <div id="searchLine">
+    Search for a Pokémon<br>
+    <input id="pokeField" type="text" value="">
+    <input id="submit" type="submit" value="Search">
+  </div>
+
+  <div id="aboutPokemon" style="display:none">
+  </div>
+</body>
+</html>
